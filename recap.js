@@ -16,7 +16,7 @@ function sum(a, b, c) {
     return a + b + c
 }
 // arrow function
-const sum0 = (a, b, c = 3) => a + b + c;  // default c=2 if not passed 
+const sum0 = (a, b, c = 3) => a + b + c;  // default c=3 if not passed 
 console.log(sum0(1, 2))
 
 var nr = [3, 4, 1];    // can't use const because I can t  reassign the array in the next example
